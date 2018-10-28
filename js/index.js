@@ -1,4 +1,5 @@
 $(function () {
+    // 倒计时
     var old = new Date(2018, 9, 27, 0, 0, 0);
     setInterval(fn, 1000);
 
@@ -19,4 +20,21 @@ $(function () {
         $(".second").html(second);
     }
     fn();
+
+
+    // logo旋转
+    var flag=true;
+    $(".hero__title_inner").on("click","#kmusic",function () {
+        if(flag){
+            // $('#yinpin')[0].load();  音乐重加载
+            $("#yinpin")[0].play();
+            $("#kmusic").addClass("kmusic");
+            
+        }else{
+            $("#yinpin")[0].pause();
+            $("#kmusic").removeClass("kmusic");
+           
+        }
+        flag=!flag;
+      });
 })
