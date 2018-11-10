@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.title {
+    height: 45/32rem;
+    ul>li {
+        list-style: none;
+        line-height: 50/32rem;
+    }
+    li:first-of-type {
+        color: #D3079E;
+        float: left;
+    }
+    li:last-of-type {
+        float: right;
+        img {
+            float: right;
+            margin-top: 10/32rem;
+            height: 30/32rem;
+        }
+    }
+    li:nth-of-type(2) {
+        text-align: center;
+        font-size: 16/32rem;
+
+    }
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.swiper-slide img {
+    width: 100%;
+    display: block;
+}
+
+.list {
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+ 
+    ul {
+        width: 100%;
+        li {
+          list-style: none;
+           padding: 5/32rem;
+           margin: 0;
+           box-sizing: border-box;
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}
+
+.nav {
+    background-color: #fff;
+    border-top: 1/32rem solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    ul {
+        width: 100%;
+        li {
+          
+            border-right: 1/32rem solid #ccc;
+            border-bottom: 1/32rem solid #ccc;
+            list-style: none;
+            box-sizing: border-box;
+            height: 100%;
+            img {
+                width: 100%;
+                display: block;
+               
+            }
+        }
+        li:nth-of-type(4n) {
+            border-right: 0;
+        }
+    }
+}
+
+.discount {
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 10/32rem;
+    border-top: 1/32rem solid #ccc;
+    border-bottom: 1/32rem solid #ccc;
+    a {
+        box-sizing: border-box;
+        img {
+            width: 100%;
+        }
+    }
+    a:nth-of-type(1) {
+        display: block;
+        width: 50%;
+        float: left;
+        border-right: 1/32rem solid #ccc;
+    }
+    a:nth-of-type(2),
+    a:nth-of-type(3) {
+        display: block;
+        width: 50%;
+        float: right;
+    }
+    a:nth-of-type(2) {
+        border-bottom: 1/32rem solid #ccc;
+    }
+}
+
+.active {
+    background-color: #fff;
+    width: 100%;
+    h3 {
+        border-bottom: 1/32rem solid #ccc;
+        font-size: 16/32rem;
+        padding-left: 5/32rem;
+        line-height: 30/32rem;
+        background-color: transparent;
+    }
+    a {
+        display: block;
+        width: 100%;
+        border-bottom: 1/32rem solid #ccc;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+.news {
+    width: 100%;
+    margin-top: 20/32rem;
+    .newsT {
+        
+        a {
+            line-height: 50/32rem;
+            width: 50%;
+            float: left;
+            height: 50/32rem;
+            text-align: center;
+            color: black;
+
+        }
+        a:first-of-type {
+            span {
+                display: inline-block;
+                color: purple;
+                border-bottom: 10/32rem solid purple;
+                box-sizing: border-box;
+            }
+        }
+    }
+    .content {
+        width: 100%;
+        .box {
+            background-color: #fff;
+            margin-bottom: 15/32rem;
+            width: 100%;
+            border-bottom: 1/32rem solid #ccc;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+            p {
+                margin: 0;
+                margin-top: 5/32rem;
+            }
+        }
+    }
+}
+
+.footer {
+    margin-top: 10/32rem;
+    width: 100%;
+    .more {
+        text-align: center;
+        background-color: #fff;
+        a {
+            text-decoration: none;
+            line-height: 40/32rem;
+            span {
+                padding-left: 20/32rem;
+            }
+        }
+    }
+    .register {
+        height: 30/32rem;
+        background-color: #D3079E;
+        margin-top: 20/32rem;
+        margin-bottom: 5/32rem;
+        color: #fff;
+        font-size: 14/32rem;
+        >div:first-of-type {
+            float: left;
+            line-height: 30/32rem;
+            padding-left: 10/32rem;
+            span {
+                padding-left: 15/32rem;
+            }
+        }
+        >div:last-of-type {
+            float: right;
+            line-height: 30/32rem;
+            padding-right: 10/32rem;
+        }
+    }
+}
