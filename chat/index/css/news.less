@@ -1,0 +1,98 @@
+
+.news-header {
+    .mui-title {
+        color: #007aff;
+        letter-spacing: 4/18.75rem;
+    }
+    .backNews {
+        display: block;
+        width: 80/18.75rem;
+        height: 100%;
+        line-height: 44/18.75rem;
+        font-size: 16/18.75rem;
+        float: left;
+    }
+    .mui-icon.mui-icon-phone {
+        margin-right: 5/18.75rem;
+    }
+}
+
+.news-footer {
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    display: flex;
+    .message {
+        outline: none;
+        border: 1/18.75rem solid #ccc;
+        height: 35/18.75rem;
+        float: left;
+        flex: 1;
+        font-size: 14/18.75rem;
+        color: #504848;
+        margin: 7/18.75rem 0 0 10/18.75rem;
+    }
+    .send {
+        float: left;
+        height: 35/18.75rem;
+        width: 60/18.75rem;
+        text-align: center;
+        margin: 7/18.75rem 10/18.75rem;
+        top: 0;
+        &:enabled:active {
+            color: #ccc;
+            background-color: #fff;
+        }
+    }
+}
+
+.news-content {
+    width: 100%;
+    padding: 60/18.75rem 20/18.75rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    .preMessageLeft {
+        display: block;
+        margin-bottom: 20/18.75rem;
+        overflow: hidden;
+        width: 100%;
+        >a {
+            display: block;
+            float: left;
+            width: 40/18.75rem;
+            height: 40/18.75rem;
+            img {
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        .new1 {
+            line-height: 20/18.75rem;
+            font-size: 14/18.75rem;
+            padding: 10/18.75rem;
+            margin-left: 50/18.75rem;
+            border-radius: 10/18.75rem;
+            max-width: 55%;
+            min-width: 10%;
+            min-height: 40/18.75rem;
+            border: 1/18.75rem dashed #ccc;
+            margin-bottom: 10/18.75rem;
+        }
+        .ctime {
+            text-align: center;
+            font-size: 14/18.75rem;
+        }
+    }
+    .preMessageRight {
+        float: right;
+        >a {
+            float: right;
+        }
+        .new1 {
+            float: right;
+            margin-right: 20/18.75rem;
+            margin-left: 0;
+        }
+    }
+}
