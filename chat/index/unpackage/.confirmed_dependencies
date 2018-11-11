@@ -1,0 +1,35 @@
+{
+  "html/news.html": {
+    "href": "html/news.html",
+    "resources": [
+      "css/base.css",
+      "assets/mui/css/mui.css",
+      "css/news.css",
+      "assets/artTemplate/template-native.js",
+      "js/jquery-3.3.1.min.js",
+      "img/portrait.jpg",
+      "img/2.jpg",
+      "js/news.js"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "assets/mui/css/mui.css",
+      "css/index.css",
+      "js/jquery-3.3.1.min.js",
+      "js/index.js",
+      "img/portrait.jpg",
+      "img/2.jpg",
+      "img/1.jpg"
+    ],
+    "refer": [
+      "html/news.html"
+    ],
+    "priority": 0
+  }
+}

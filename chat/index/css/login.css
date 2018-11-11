@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url('../bgc/login.jpg') no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+.login {
+  box-sizing: border-box;
+  margin-top: 10%;
+  padding: 0.69333333rem;
+  overflow: hidden;
+}
+.login input {
+  font-size: 1.12rem;
+  height: 3.41333333rem;
+  padding: 1.12rem;
+  background-color: transparent;
+  margin-bottom: 0.69333333rem;
+  outline: none;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 0.10666667rem solid rgba(255, 255, 255, 0.3);
+}
+.login .lgn {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #2CB0E4;
+  width: 100%;
+  height: 2.29333333rem;
+  box-sizing: border-box;
+  font-size: 1.12rem;
+  letter-spacing: 0.21333333rem;
+  line-height: 2.29333333rem;
+  border-radius: 0.21333333rem;
+  margin: 0.69333333rem 0 1.12rem 0;
+}
+.login .forget {
+  font-size: 0.8rem;
+  float: left;
+}
+.login .register {
+  float: right;
+  font-size: 0.8rem;
+}
+.login .hidden {
+  position: relative;
+}
+.login .hidden .imgLogo {
+  height: 2.29333333rem;
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -0.69333333rem;
+  right: 1.6rem;
+  border-radius: 50%;
+  display: none;
+}
+.notice {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 0.05333333rem;
+}
+.danger {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+}
+.danger span {
+  display: none;
+  padding: 0.42666667rem;
+  text-align: center;
+  line-height: 0.96rem;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 0.90666667rem;
+  border-radius: 0.16rem;
+  color: #fff;
+}
