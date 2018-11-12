@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../assets/mui/css/mui.css">
+    <link rel="stylesheet" href="../css/news.css">
+    <script src="../assets/artTemplate/template-native.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="mui-bar mui-bar-nav my-header news-header">
+        <a href="javascript:;" class="backNews"><span class="mui-icon mui-icon-back "></span>消息</a>
+        <h1 class="mui-title">呦呦</h1>
+        <a href="javascript:;" class="mui-icon mui-icon-contact mui-pull-right"></a>
+        <a href="javascript:;" class="mui-icon mui-icon-phone mui-pull-right"></a>
+    </header>
+
+    <!-- footer -->
+    <nav class="mui-bar mui-bar-tab my-footer news-footer">
+        <input type="text" name="news" class="message">
+        <button type="button" class="mui-btn mui-btn-outlined send">发送</button>
+    </nav>
+    <!-- content -->
+    <div class="news-content">
+        <ul class="uu">
+
+        </ul>
+    </div>
+    <script type="text/html" id="LeftNews">
+        <li class="preMessageLeft">
+               <a href="javascript:;">
+                   <img src="../img//portrait.jpg" alt="">
+               </a>
+               <div class="new1"><%=res.text%></div>
+           </li>
+   </script>
+    <script type="text/html" id="RightNews">
+        <li class="preMessageRight preMessageLeft">
+                <a href="javascript:;">
+                    <img src="../img/2.jpg" alt="">
+                </a>
+                <div class="new1"><%=sendMessage%></div>
+            </li>
+    </script>
+    <script src="../js/news.js"></script>
+</body>
+
+</html>
