@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Sign in &laquo; Admin</title>
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/mui/js/mui.min.js"></script>
+
+</head>
+
+<body>
+    <div class="login">
+        <div class="hidden">
+            <input type="number" name="username" class="username" placeholder="请输入账号">
+        </div>
+        <input type="password" name="password" class="password mui-input-password" placeholder="输入密码">
+        <input type="password" name="passwordAgain" class="passwordAgain mui-input-password" placeholder="请确认密码">
+        <input type="number" name="number" class="call" placeholder="请输入电话号码">
+        <div class="code"><input type="text" name="safe_code" class="auth" placeholder="验证码">
+        <div class="safe_code">获取验证码</div>
+        </div>
+        
+        <a href="javascript:;" class="lgn register">注册</a>
+    </div>
+
+    <div class="danger">
+        <span></span>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>

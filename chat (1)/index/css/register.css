@@ -1,0 +1,16 @@
+.code {
+  position: relative;
+}
+.code .safe_code {
+  width: 4.26666667rem;
+  height: 3.2em;
+  position: absolute;
+  right: 1.06666667rem;
+  top: 20%;
+  border-radius: 0.53333333rem;
+  background-color: #2CB0E4;
+  font-size: 0.53333333rem;
+  padding-top: 0.42666667rem;
+  color: #fff;
+  opacity: 0.7;
+}
